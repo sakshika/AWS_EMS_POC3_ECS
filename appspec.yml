@@ -1,0 +1,7 @@
+# This is an appspec.yml template file for use with AWS CodeDeploy.
+version: 0.0
+os: linux 
+
+files:
+  - source: /target/EmployeeApplication.war
+    destination: /usr/local/tomcat7/webapps/
