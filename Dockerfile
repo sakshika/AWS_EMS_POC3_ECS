@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:latest
 RUN apt-get update
 #RUN apt-get install -y --force-yes openjdk-7-jre-headless wget
 RUN apt-get install -y tomcat7
